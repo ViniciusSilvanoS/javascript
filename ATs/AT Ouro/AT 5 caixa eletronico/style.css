@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: url(img/fundo2.webp);
+    background-size: cover;
+}
+
+/* --------------------------- estilo label -------------------------------- */
+
+form{
+    width: 100%;
+    max-width: 150px;
+}
+
+div.single-input{
+    width: 100%;
+    margin: 30px 0;
+    position: relative;
+
+    max-width: 150px;
+}
+
+div.single-input label{
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150, 150, 150);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+div.single-input input{
+    width: 100%;
+    padding: 5px;
+    /* color: rgb(150, 150, 150); */
+    color: rgb(80, 80, 80);
+    /* color: black; */
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: 0;
+    font-size: 16px;
+}
+
+div.single-input input:focus, div.single-input input:valid{
+    border-bottom: 2px solid cornflowerblue;
+}
+
+div.single-input input:focus ~ label, div.single-input input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: cornflowerblue;
+}
+
+/* ----------------------------------------------------------- */
+
+#msg_saque{
+    margin-bottom: 30px;
+    color: brown;
+    text-align: center;
+    font-size: 11pt;
+}
+
+.rs_saque{
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    color: rgb(150, 150, 150);
+}
+
+#saque{
+    position: absolute;
+    right: -30px;
+    top: 10px;
+    background-color: white;
+    outline: 0;
+    border: 0;
+
+    color: rgb(150, 150, 150);
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 3px;
+
+    padding: 2px;
+}
+
+#saque:hover{
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    /* padding: 2px; */
+
+    font-size: 14px;
+}
+
+/* ----------------------------------------------------------- */
+
+.notas_saque p{
+    color: rgb(150, 150, 150);
+}
+
+.notas_saque span{
+    color: rgb(75, 75, 75);
+}

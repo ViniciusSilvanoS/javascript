@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90vw;
+    margin: 0 auto;
+
+}
+
+.pega_info label{
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+    background-color: #eee;
+    padding: 5px;
+    
+}
+
+.pega_info input{
+    width: 100px;
+    margin-left: 10px;
+}
+
+.pega_info h2{
+    margin: 20px 0 20px 0;
+}
+
+.pega_info{
+    margin-bottom: 30px;
+}
+
+.escreve_info .planejado{
+    display: block;
+    width: 1px;
+    height: 20px;
+    background-color: blueviolet;
+
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.escreve_info .realizado{
+    display: block;
+    width: 1px;
+    height: 20px;
+    background-color: blueviolet;
+
+    margin-bottom: 40px;
+}
+
+.rotulo{
+    color: white;
+    font-weight: bold;
+}
+
+.porcent_gastos{
+    display: inline-block;
+    margin-left: 5px;
+}

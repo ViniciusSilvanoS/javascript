@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa eletronico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div class="single-input">
+            <div class="rs_saque">R$</div>
+            <input required type="text" name="" id="valor">
+            <label for="valor">Saque</label>
+            <button id="saque" onclick="sacar(); return false">OK</button>
+        </div>
+        <p id="msg_saque"></p>
+    </form>
+    <div class="notas_saque">
+        <p>R$100: <span id="msg_100"></span></p>
+        <p>R$50: <span id="msg_50"></span></p>
+        <p>R$20: <span id="msg_20"></span></p>
+        <p>R$10: <span id="msg_10"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

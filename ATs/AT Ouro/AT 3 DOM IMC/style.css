@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(img/202211_drauzio_IMC-por-que-a-formula-nao-e-suficiente-para-determinar-quadro-nutricional_1200x676_serezniy-1200x676.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    
+    /* background-repeat: no-repeat; */
+}
+
+.body-externo{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
+.calc_imc{  
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    /* column-gap: 100px; */
+
+    padding: 20px;
+
+    width: 50vw;
+    background-color: rgba(128, 128, 128, 0.523);
+    border-radius: 20px;
+}
+
+.calc_imc h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.calc_imc label{
+    margin-bottom: 5px;
+    font-size: 14pt;
+}
+
+.calc_imc input{    
+    text-align: center;
+    width: 100px;
+
+    color: black;
+}
+
+.input_style{
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 5px;
+    border-bottom: 2px solid blue;
+
+    margin-top: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+ }
+
+ button{
+    padding: 2px 5px;
+    color: black;
+ }
+
+ button:hover{
+    color: white;
+    background-color: #234;
+    border-radius: 5px;
+    border: 1px solid black;
+ }
+
+.pega_dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pega_dados p{
+    margin-bottom: 30px;
+}
+
+.resposta_dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+
+    font-size: 18pt;
+}
+

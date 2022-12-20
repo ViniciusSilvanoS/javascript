@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body-externo">
+        <div class="calc_imc">
+            <div class="pega_dados">
+                <h1>Cálcular IMC</h1>
+                <label for="">Altura</label><input type="number" name="" id="num_altura" class="input_style"><br>
+                <p id="msg_altura"></p><br>
+                <label for="">Peso</label><input type="number" name="" id="num_peso" class="input_style"><br>
+                <p id="msg_peso"></p><br>
+                <button type="button" name="" id="calculaIMC" value="Calcular IMC" onclick="calcularIMC()">Calcular IMC</button>
+            </div>
+            <div class="resposta_dados">
+                <p id="resp_imc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

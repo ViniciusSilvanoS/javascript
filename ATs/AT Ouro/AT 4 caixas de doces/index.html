@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Demanda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="body-interno">
+        <div class="painel">
+            <header>
+                <h1>Controle de Demanda</h1>
+            </header>
+            
+            <main>
+                <div class="pega_doces">
+                    <label for="">QTD. Ítens</label><input type="number" name="" id="num_doces">
+                    <p id="msg_doces"></p>
+                    <button id="calcula_caixas" onclick="calcularCaixas()">Calcular</button>
+                </div>
+
+                <div class="qtd_caixas">
+                    <p>Caixa Grande: <span id="msg_cxgrande">0</span></p> 
+                    <p>Caixa Média: <span id="msg_cxmedia">0</span></p> 
+                    <p>Caixa Pequena: <span id="msg_cxpequena">0</span></p> 
+                    <p>Caixa Menor: <span id="msg_cxmenor">0</span></p> 
+                    <p><strong>Total:</strong> <span id="msg_cxtotal">0</span></p> 
+                </div>
+            </main>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
